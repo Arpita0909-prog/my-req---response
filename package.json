@@ -1,0 +1,15 @@
+{
+  "name": "my-req-response",
+  "version": "1.0.0",
+  "description": "",
+  "license": "ISC",
+  "author": "Arpita Dwivedi",
+  "type": "commonjs",
+  "main": "app.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "dependencies": {
+    "http": "^0.0.1-security"
+  }
+}
