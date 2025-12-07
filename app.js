@@ -2,7 +2,7 @@ const http=require('http');
 const server = http.createServer((req, res) => {
     console.log("server is created");
 
-    req.setHeader('Content-Type', 'text/html');
+    res.setHeader('Content-Type', 'text/html');
     if(req.url === '/') {
         res.statusCode = 200;
         res.end('<h1>hello world</h1>');
